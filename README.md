@@ -21,4 +21,27 @@ An IAM user with Admin Access
 ---
 
 # Installation & Setup
+## :one: Clone the Repository    
+| Command - BASH | Description |
+| --- | --- |
+| git clone | Link |
+| cd | aws-terraform-ec2-deploy/terraform |
+
+## :two: Initialize Terraform    
+| Command - BASH |
+| --- | 
+| terraform init | 
+
+## :three: Review & Apply Terraform Plan    
+| Command - BASH | 
+| --- |
+| terraform plan |
+| terraform apply -auto-approve |
+
+## :four: Get the EC2 Public IP & Access the Web Server
+| Command -BASH | 
+| --- | 
+| terraform output public_ip |     
+
+Copy the IP and open in your browser:    
 
