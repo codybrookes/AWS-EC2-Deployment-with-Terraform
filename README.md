@@ -17,6 +17,7 @@ Before beginning ensure these are ready to go -
 Terraform Installed ->    
 AWS CLI installed & configured (aws configure)     
 An IAM user with Admin Access    
+
 ---
 
 Installation & Setup
