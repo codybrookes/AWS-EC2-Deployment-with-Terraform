@@ -45,3 +45,21 @@ An IAM user with Admin Access
 
 Copy the IP and open in your browser:    
 
+
+# Project Structure
+## Terraform Configs    
+
+| File | Description |
+| --- | --- |
+| main.tf | Defines the EC2 instance |
+| variables.tf | Stores configurable parameters |
+| outputs.tf | Retrieves and displays the public IP |
+| security_groups.tf | Defines inbound/outbound rules |
+| user_data.sh | Installs Nginx on the instance |
+
+
+
+
+
+
+
